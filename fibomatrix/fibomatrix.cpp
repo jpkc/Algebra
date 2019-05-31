@@ -59,7 +59,7 @@ int IsLikeFibonacci(M2x2 matrix, int n) {
 			f = matrix.c;
 			break;
 		case 2:
-			f = matrix.c + matrix.d;
+			f = matrix.a;
 			break;
 		default:
 			f = F(matrix, n);
